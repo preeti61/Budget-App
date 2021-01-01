@@ -18,8 +18,8 @@ this.setState(()=>({calendarFocused}))
     }
     render(){
     return(
-   <div>
-       <input  type="text" value={this.props.filters.text} onChange={(e)=>{
+   <div className="general">
+       <input  type="text" value={this.props.filters.text} placeholder="Search Your  Expense" onChange={(e)=>{
           this.props.dispatch(changetext({text:e.target.value}))
         }
       }  />
@@ -35,7 +35,7 @@ this.setState(()=>({calendarFocused}))
           <option value="date">Date</option>
           <option value="amount">Amount</option>
       </select>
-
+      <h2 className="DarkYellow">Choose date</h2>
       <DateRangePicker
           startDate={this.props.filters.startDate}
         endDate={this.props.filters.endDate}

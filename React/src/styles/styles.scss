@@ -1,4 +1,21 @@
 @import './base/base';
- @import './base/base';
- @import './components//box-layout.scss'
- 
+@import './components/box-layout';
+@import './components/button.scss';
+@import './components/header.scss';
+@import './components/listItem.scss';
+
+body{
+    font-size: 5rem;
+}
+.white{
+    color: white;
+}
+.DarkYellow{
+    color:rgb(233, 233, 15)
+}
+.Purple{
+    background-color:purple;
+}
+.general{
+    margin:1rem
+}

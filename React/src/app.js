@@ -8,7 +8,7 @@ import {AddExpense, setExpensesData} from './actions/expense'
 import {changetext} from './actions/filter'
 import {Provider} from 'react-redux'
 import {firebase} from '../src/firebase/firebase'
-
+import 'normalize.css/normalize.css'
 import {login,logout} from './actions/auth'
 const store=configStore()
 

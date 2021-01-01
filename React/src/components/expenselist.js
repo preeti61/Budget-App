@@ -6,8 +6,8 @@ import {NavLink} from 'react-router-dom'
 const ExpenseList=(props)=>(
    
     <div>
-       <h1>Expense List</h1>
-      {props.expenses.length}
+       
+     
        {props.expenses.map((exp)=>{
            return < ExpenseListItem key={exp.id} {...exp}/>
        })}

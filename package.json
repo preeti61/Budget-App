@@ -4,8 +4,9 @@
   "description": "",
   "main": ".js",
   "scripts": {
-    "serve": "live-server React/public/",
-    "build": "webpack",
+    "serve": "live-server public/",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "devServer": "webpack-dev-server",
     "test": "jest"
   },
@@ -18,6 +19,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "firebase": "^7.23.0",
     "history": "^4.7.2",
     "jest": "^20.0.4",

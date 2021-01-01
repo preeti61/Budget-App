@@ -5,7 +5,7 @@ import 'react-dates/lib/css/_datepicker.css';
 
 
 const now=moment();
-console.log(now.format('MMM D YYYY hh:ss'))
+console.log(now)
 export default class ExpenseForm extends  React.Component{
    
    constructor(props)
@@ -77,6 +77,9 @@ export default class ExpenseForm extends  React.Component{
                         }} id="amt"  autoFocus/>
                    <br></br>
                    <br></br>
+                  
+
+                 
                    <SingleDatePicker
                    date={this.state.createdAt}
                    onDateChange={this.onDateChange}

@@ -1,0 +1,26 @@
+
+
+.header{
+    background: steelblue;
+    
+}
+.row{
+   display: flex;
+}
+
+div.header h1{
+   color: white;
+   text-decoration: none;
+   font-size: 5rem;
+   margin:1rem;
+}
+.is-active{
+   background-color: darkblue;
+   padding: 3px;
+   margin:10px;
+   text-decoration: none;
+   
+}
+.header div.navlink{
+ padding: 1rem;
+}
